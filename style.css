@@ -13,5 +13,8 @@
 
 .grid-boxes {
     background-color: black;
-    margin: 1px white;
+}
+
+.grid-boxes:hover {
+    background-color: grey;
 }

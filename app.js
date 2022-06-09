@@ -24,6 +24,4 @@ if (input) {
     createGrid(input);
 }
 
-createGrid(16);
-
 

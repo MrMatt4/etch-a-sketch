@@ -8,7 +8,7 @@ function createGrid(noOfGrids) {
         for (let x = 0; x < noOfGrids; x++) {
             const rowDivContainer = document.createElement('div');
             const containerDiv = document.querySelector('.grid-container');
-            rowDivContainer.setAttribute('style','display:flex');
+            rowDivContainer.setAttribute('style','display:flex;flex-grow:1');
             containerDiv.appendChild(rowDivContainer);
             for (let i = 0; i < noOfGrids; i++) {
                 const createdDivRow = document.createElement('div');

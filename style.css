@@ -12,6 +12,7 @@
 
 .grid-boxes {
     background-color: black;
+    flex-grow: 1;
 }
 
 .grid-boxes:hover {

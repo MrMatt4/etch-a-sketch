@@ -40,7 +40,7 @@ function createGrid(noOfGrids) {
 }
 
 let slider = document.getElementById("gridSlider");
-let output = document.getElementById("output");
+let output = document.getElementById("sliderOutput");
 createGrid(slider.value);
 
 slider.oninput = function() {

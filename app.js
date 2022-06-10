@@ -41,6 +41,7 @@ function createGrid(noOfGrids) {
 
 let slider = document.getElementById("gridSlider");
 let output = document.getElementById("output");
+createGrid(slider.value);
 
 slider.oninput = function() {
     output.textContent = slider.value;

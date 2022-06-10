@@ -19,10 +19,10 @@ function createGrid(noOfGrids) {
     }
 }
 
-input = window.prompt("Input an integer from 1 to 100.");
+let slider = document.getElementById("gridSlider");
 
-if (input) {
-    createGrid(input);
+slider.oninput = function() {
+    createGrid(this.value);
 }
 
 
